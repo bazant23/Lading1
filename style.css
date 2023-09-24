@@ -4,26 +4,37 @@ body {
 
 /*-Heard-*/
 .d1 {
+    background-color: #696969;
+    padding: 3vh;
+}
+
+.d2 {
     display: flex;
-    justify-content: space-evenly;
-    font-size: 23px;
+    justify-content: space-between;
+    font-size: 30px;
     font-style: italic;
     color: #fff;
 }
 
-.d1h {
-    background-color: #696969;
-    padding: 3vh;
-}
-.dd{
-    font-size: 32px;
-}
-.dd3{
-    font-size:32px ;
-}
-.d2{
+.d3 {
     display: flex;
-    justify-content:end ;
+    font-size: 37px;
+    margin-left: 180px;
+    color: #E4D00A;
+}
+
+.d4 {
+    margin-left: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.d6 {
+    display: flex;
+    justify-content: end;
+    font-size: 32px;
+    color: #E4D00A;
+    margin-right: 30px;
 }
 
 /** Fim do heard*/
@@ -31,47 +42,34 @@ body {
 .main1 {
     display: flex;
     align-items: center;
-    margin: 10px;
+    margin: 100px;
     color: #fff;
-}
-
-.img1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80vh;
-    
-
-}
-
-.maintext {
-    display: flex;
-    flex-direction: column;
-    margin-right: 30px;
 }
 
 .main2 {
     display: flex;
+    justify-content: center;
+    margin-right: 50vh;
+    margin-top: 20px;
+}
+
+.img1 {
+    display: flex;
+    margin-left: 300px;
+}
+
+.maintext {
+    display: flex;
+    text-align: center;
     flex-direction: column;
-    margin-top: 80px;
-    text-align: start;
-    padding-right: 100px;
+    padding: 40px;
+    margin-top: 55px;
 }
-
-/* <p> main */
-.main3{
-    font-size: 30px ;
+.main6{
+    display: flex;
+    margin:50px;
 }
-
-.main4{
-    font-size: 20px;
+.main7{
+    margin-right: 15px;
 }
-
-.main5{
-    display:flex;
-    text-align: start;
-    font-size: 15px;
-}
-
-
 /*-Fim da main-*/
