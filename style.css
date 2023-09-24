@@ -21,7 +21,10 @@ body {
 .dd3{
     font-size:32px ;
 }
-
+.d2{
+    display: flex;
+    justify-content:end ;
+}
 
 /** Fim do heard*/
 /** Inicio da main */
