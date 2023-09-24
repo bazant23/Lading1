@@ -1,10 +1,10 @@
 body {
-    background-color: #808080;
+    background-color: #000;
 }
 
 /*-Heard-*/
 .d1 {
-    background-color: #696969;
+    background-color: #010101;
     padding: 3vh;
 }
 
@@ -20,20 +20,26 @@ body {
     display: flex;
     font-size: 37px;
     margin-left: 180px;
-    color: #E4D00A;
 }
 
 .d4 {
     margin-left: 90vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.d5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
 }
 
 .d6 {
     display: flex;
     justify-content: end;
     font-size: 32px;
-    color: #E4D00A;
     margin-right: 30px;
 }
 
@@ -41,35 +47,27 @@ body {
 /** Inicio da main */
 .main1 {
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin: 100px;
     color: #fff;
 }
+.main2{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+    font-size: 40px;
+}
 
-.main2 {
+.main22{
+    font-size: 20px;
+    margin-right: 400px;
+}
+.img1{
+    margin: 20px 70px 0px 380px;
+}
+.main11{
     display: flex;
     justify-content: center;
-    margin-right: 50vh;
-    margin-top: 20px;
-}
-
-.img1 {
-    display: flex;
-    margin-left: 300px;
-}
-
-.maintext {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    padding: 40px;
-    margin-top: 55px;
-}
-.main6{
-    display: flex;
-    margin:50px;
-}
-.main7{
-    margin-right: 15px;
+    align-items: center;
 }
 /*-Fim da main-*/
