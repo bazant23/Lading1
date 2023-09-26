@@ -1,8 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;600;700;800&family=Kaushan+Script&family=Nanum+Myeongjo:wght@400;800&display=swap');
 
-
-  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;600;700;800&family=Kaushan+Script&family=Nanum+Myeongjo:wght@400;800&display=swap');
-
-:root{
+:root {
     font-family: 'Dancing Script', cursive;
     font-family: 'Inter', sans-serif;
     font-family: 'Kaushan Script', cursive;
@@ -26,7 +24,6 @@ body {
     font-size: 30px;
     font-style: italic;
     color: #fff;
-
 }
 
 .media {
@@ -57,6 +54,8 @@ body {
     align-items: center;
     margin-right: 20px;
     font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #fff;
 }
 
 .d6 {
@@ -65,6 +64,26 @@ body {
     font-size: 32px;
     margin-right: 30px;
     font-family: 'Inter', sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+nav a::after {
+    content: "";
+    width: 0%;
+    height: 1.2px;
+    background-color: #ffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 /** Fim do heard*/
@@ -122,10 +141,10 @@ body {
 /*-Fim da main-*/
 /*abaixo de @media 1280*/
 @media(max-width:670px) {
-    .d1{
+    .d1 {
         display: flex;
         justify-content: center;
         align-items: center;
-      
+
     }
 }
