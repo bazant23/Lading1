@@ -11,16 +11,24 @@ body {
 .d2 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: 30px;
     font-style: italic;
     color: #fff;
+
+}
+
+.media {
+    display: flex;
+    align-items: center;
 }
 
 .d3 {
+    align-items: center;
+    justify-content: center;
     display: flex;
     font-size: 37px;
-    padding-left: 19%;
+    margin-left: 20px;
 }
 
 .d4 {
@@ -67,13 +75,17 @@ body {
 }
 
 .img1 {
-    margin: 20px 70px 0px 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main11 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 30%;
+    padding-top: 5%;
 }
 
 .apple {
@@ -91,8 +103,11 @@ body {
 
 /*-Fim da main-*/
 /*abaixo de @media 1280*/
-@media(max-width:1280px) {
-    .d1 {
-        
+@media(max-width:670px) {
+    .d1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
     }
 }
