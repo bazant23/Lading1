@@ -25,7 +25,6 @@ body {
     font-style: italic;
     color: #fff;
 }
-
 .media {
     display: flex;
     align-items: center;
@@ -85,7 +84,6 @@ nav a::after {
     bottom: 0;
     left: 0;
 }
-
 /** Fim do heard*/
 /** Inicio da main */
 .main1 {
@@ -115,6 +113,7 @@ nav a::after {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 10px;
 }
 
 .main11 {
@@ -137,8 +136,26 @@ nav a::after {
     color: #fff;
     margin-left: 50px;
 }
-
+.dark#login_form{
+    color: #000;
+}
 /*-Fim da main-*/
+
+@keyframes light-to-dark {
+    100.0% {
+        background-color: #fff; 
+    }
+}
+
+@keyframes dark-to {
+    0% {
+        background-color:var(--color-dark-100);
+    }
+    100.0% {
+        background-color:var(--color-light-50);
+    }
+}
+
 /*abaixo de @media 1280*/
 @media(max-width:670px) {
     .d1 {
