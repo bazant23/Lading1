@@ -8,12 +8,12 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #212529;
 }
 
 /*-Heard-*/
 .d1 {
-    background-color: #010101;
+    background-color:   #212529;
     padding: 3vh;
 }
 
@@ -137,24 +137,11 @@ nav a::after {
     margin-left: 50px;
 }
 .dark#login_form{
-    color: #000;
+
+    background-color: #000;
 }
 /*-Fim da main-*/
 
-@keyframes light-to-dark {
-    100.0% {
-        background-color: #fff; 
-    }
-}
-
-@keyframes dark-to {
-    0% {
-        background-color:var(--color-dark-100);
-    }
-    100.0% {
-        background-color:var(--color-light-50);
-    }
-}
 
 /*abaixo de @media 1280*/
 @media(max-width:670px) {
