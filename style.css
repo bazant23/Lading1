@@ -53,7 +53,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Inter', sans-serif;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
 .d5 {
@@ -64,14 +64,14 @@ body {
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     color: #fff;
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 .d6 {
     display: flex;
     justify-content: end;
     font-size: 32px;
-    margin-left: 30px;
+    margin-left: 10px;
     font-family: 'Inter', sans-serif;
 }
 
@@ -194,9 +194,15 @@ nav a::after {
         margin-top: 20px;
     }
     .celulaar{
-        margin-left: 65vh;
+        margin-left: 0;
     }
     .celulaar{
         margin-bottom: 40px;
+    }
+    .apple{
+        margin-left: 0;
+    }
+    .main22{
+        margin-right: 0;
     }
 }
