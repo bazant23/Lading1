@@ -156,7 +156,7 @@ nav a::after {
 
 
 /*Configurações de Celular*/
-@media(max-width:767px) and (min-width:375px){
+@media(max-width:767px){
     .media {
         display: flex;
         justify-content: center;
@@ -183,7 +183,8 @@ nav a::after {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-right: 23vh;
+        padding-left: 0;
+        padding-top: 0;
     }
     
     .frase{
