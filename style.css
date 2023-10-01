@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;600;700;800&family=Kaushan+Script&family=Nanum+Myeongjo:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dosis:wght@200;500;800&family=Inter:wght@400;500;600;700;800&family=Kaushan+Script&family=Nanum+Myeongjo:wght@400;800&display=swap');
 
 :root {
     font-family: 'Dancing Script', cursive;
+    font-family: 'Dosis', sans-serif;
     font-family: 'Inter', sans-serif;
     font-family: 'Kaushan Script', cursive;
     font-family: 'Nanum Myeongjo', serif;
@@ -44,6 +45,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    font-family: 'Kaushan Script', cursive;
+
 
 }
 
@@ -133,6 +136,7 @@ nav a::after {
     align-items: center;
     padding-left: 30%;
     padding-top: 5%;
+    font-family: 'Dosis', sans-serif;
 }
 
 .apple {
@@ -156,14 +160,15 @@ nav a::after {
 
 
 /*Configurações de Celular*/
-@media(max-width:767px){
+@media(max-width:767px) {
     .media {
         display: flex;
         justify-content: center;
         align-items: center;
 
     }
-    .d3{
+
+    .d3 {
         margin-bottom: 10px;
     }
 
@@ -172,13 +177,14 @@ nav a::after {
         align-items: center;
         flex-direction: column;
     }
-  
-    .celular1{
+
+    .celular1 {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .main11{
+
+    .main11 {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -186,23 +192,39 @@ nav a::after {
         padding-left: 0;
         padding-top: 0;
     }
-    
-    .frase{
+
+    .frase {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
     }
-    .celulaar{
+
+    .celulaar {
         margin-left: 0;
     }
-    .celulaar{
+
+    .celulaar {
         margin-bottom: 40px;
     }
-    .apple{
+
+    .apple {
         margin-left: 0;
     }
-    .main22{
+
+    .main22 {
         margin-right: 0;
+    }
+
+    .d4 {
+        font-size: 25px;
+    }
+
+    .d5 {
+        font-size: 25px;
+    }
+
+    .d6 {
+        font-size: 25px;
     }
 }
