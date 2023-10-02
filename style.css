@@ -10,6 +10,7 @@
 
 body {
     background-color: #212529;
+    scroll:none;
 }
 
 /*-Heard-*/
@@ -120,7 +121,7 @@ nav a::after {
     font-size: 20px;
     margin-right: 400px;
     text-align: justify;
-    font-family: 'Inter', sans-serif;
+
 }
 
 .img1 {
@@ -155,7 +156,9 @@ nav a::after {
 .dark#login_form {
     background-color: #000;
 }
-
+.main2{
+    font-family: 'Dosis', sans-serif;
+}
 /*-Fim da main-*/
 
 
@@ -226,5 +229,8 @@ nav a::after {
 
     .d6 {
         font-size: 25px;
+    }
+    .main2{
+        font-family: 'Dosis', sans-serif;
     }
 }
