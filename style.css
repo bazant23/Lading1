@@ -10,7 +10,7 @@
 
 body {
     background-color: #212529;
-    scroll:none;
+    scroll: none;
 }
 
 /*-Heard-*/
@@ -156,9 +156,11 @@ nav a::after {
 .dark#login_form {
     background-color: #000;
 }
-.main2{
+
+.main2 {
     font-family: 'Dosis', sans-serif;
 }
+
 /*-Fim da main-*/
 
 
@@ -230,7 +232,8 @@ nav a::after {
     .d6 {
         font-size: 25px;
     }
-    .main2{
+
+    .main2 {
         font-family: 'Dosis', sans-serif;
     }
 }
