@@ -15,7 +15,7 @@ body {
 
 /*-Heard-*/
 .d1 {
-    background-color: #212529;
+    background-color: rgba(#212529,#212529, #000, #000);
     padding: 3vh;
 }
 
