@@ -178,11 +178,12 @@ nav a::after {
     }
 
     .img1 {
-        width: 80%;
+        width: 70%;
     }
 
     .d3 {
         margin-bottom: 10px;
+        font-size: 30px;
     }
 
     .d2 {
@@ -260,7 +261,11 @@ nav a::after {
     }
     
     .criador{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-left: 0px;
+        margin-top: 30px;
     }
     .main22{
         text-align: center;
