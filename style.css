@@ -232,19 +232,24 @@ nav a::after {
 
     .d4 {
         font-size: 20px;
-        padding-top: 18px;
+        padding-top: 15px;
+        font-family: 'Dosis', sans-serif;
+        margin-bottom: 5px;
     }
 
     .d5 {
         font-size: 20px;
-        padding-top: 18px;
+        padding-top: 15px;
+        margin-bottom: 5px;
+        font-family: 'Dosis', sans-serif;
 
     }
 
     .d6 {
         font-size: 20px;
-        padding-top: 18px;
-
+        padding-top: 15px;
+        font-family: 'Dosis', sans-serif;
+        margin-bottom: 5px;
     }
 
     .main2 {
